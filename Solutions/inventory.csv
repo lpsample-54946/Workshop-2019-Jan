@@ -1,0 +1,3 @@
+hostname,serialNumber,platformId,macAddress,softwareVersion
+cat_9k_1,FCW2136L0AK,C9300-24UX,f8:7b:20:67:62:80,16.6.1
+cs3850,FOC1833X0AR,WS-C3850-48U-E,cc:d8:c1:15:d2:80,16.6.2s
