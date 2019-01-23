@@ -152,7 +152,6 @@ if __name__ == "__main__":
             print("Writing row to CSV:\n\t{}".format(row))
             wr.writerow(row)
     print("Closing CSV file...")
-    invfile.close()
 
     print("VERIFY - open '{}' for reading".format(inventoryfile))
     with open(inventoryfile, 'r') as invfile:
@@ -160,5 +159,4 @@ if __name__ == "__main__":
         for row in invfile:
             # Print each line, removing any newline characters
             print(row.rstrip('\n'))
-    invfile.close()
 
